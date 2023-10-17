@@ -19,6 +19,15 @@ public class Genre {
 	private String name;
 	@Column
 	private String status;
+	
+	@Column
+	private String status2;
+	public String getStatus2() {
+		return status2;
+	}
+	public void setStatus2(String status2) {
+		this.status2 = status2;
+	}
 	public int getId() {
 		return id;
 	}
